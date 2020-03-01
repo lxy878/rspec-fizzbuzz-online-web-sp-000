@@ -19,4 +19,4 @@ def fizzbuzz(number)
   return result
 end
 
-puts fizzbuzz(5) == nil
+puts fizzbuzz(5)

@@ -18,5 +18,3 @@ def fizzbuzz(number)
 
   return result
 end
-
-puts fizzbuzz(15)

@@ -4,7 +4,7 @@
 def fizzbuzz(number)
   result = nil
   if number%3 == 0
-    result += "Fizz"
+    result = result.to_s + "Fizz"
   end
 
   if number%5 == 0

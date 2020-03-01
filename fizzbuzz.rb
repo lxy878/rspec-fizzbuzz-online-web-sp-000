@@ -3,14 +3,17 @@
 
 def fizzbuzz(number)
   result = ""
-  if number%3 == 0
-    result << "Fizz"
-  end
+  if number%15 == 0
+    if number%3 == 0
+      result << "Fizz"
+    end
 
-  if number%5 == 0
-    result << "Buzz"
+    if number%5 == 0
+      result << "Buzz"
+    end
+  else
+    result = nil
   end
-
   return result
 end
 

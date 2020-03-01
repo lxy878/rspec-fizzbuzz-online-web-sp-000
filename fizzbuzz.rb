@@ -4,11 +4,11 @@
 def fizzbuzz(number)
   result = nil
   if number%3 == 0
-    result = result.to_s + "Fizz"
+    result << "Fizz"
   end
 
   if number%5 == 0
-    result += result.to_s + "Buzz"
+    result << "Buzz"
   end
 
   return result

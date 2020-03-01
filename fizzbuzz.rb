@@ -14,4 +14,4 @@ def fizzbuzz(number)
   return result
 end
 
-puts fizzbuzz(4)
+puts fizzbuzz(4).class

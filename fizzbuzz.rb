@@ -11,10 +11,11 @@ def fizzbuzz(number)
     if number%5 == 0
       result << "Buzz"
     end
+    
   else
     result = nil
   end
-  
+
   return result
 end
 

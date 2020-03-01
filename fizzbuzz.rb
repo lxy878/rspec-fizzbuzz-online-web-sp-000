@@ -3,7 +3,7 @@
 
 def fizzbuzz(number)
   result = ""
-  if number%15 == 0
+  if 15%number == 0
     if number%3 == 0
       result << "Fizz"
     end

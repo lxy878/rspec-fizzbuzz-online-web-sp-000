@@ -9,3 +9,5 @@ def fizzbuzz(number)
     result += "Buzz"
   return result
 end
+
+fizzbuzz(4)

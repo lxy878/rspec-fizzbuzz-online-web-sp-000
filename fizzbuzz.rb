@@ -11,7 +11,7 @@ def fizzbuzz(number)
     if number%5 == 0
       result << "Buzz"
     end
-    
+
   else
     result = nil
   end
@@ -19,4 +19,4 @@ def fizzbuzz(number)
   return result
 end
 
-puts fizzbuzz(5)
+puts fizzbuzz(1) == nil

@@ -8,7 +8,7 @@ def fizzbuzz(number)
   end
 
   if number%5 == 0
-    result += "Buzz"
+    result += result.to_s + "Buzz"
   end
 
   return result

@@ -3,16 +3,20 @@
 
 def fizzbuzz(number)
   result = ""
+  if number%15 == 0
+    if number%3 == 0
+      result << "Fizz"
+    end
 
-  if number%3 == 0
-    result << "Fizz"
-  end
+    if number%5 == 0
+      result << "Buzz"
+    end
 
-  if number%5 == 0
-    result << "Buzz"
+  else
+    result = nil
   end
 
   return result
 end
 
-puts fizzbuzz(1) == nil
+puts fizzbuzz(5) == nil

@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  result = nil
+  result = ""
   if number%3 == 0
     result << "Fizz"
   end
